@@ -22,7 +22,7 @@ module.exports = function( grunt ) {
 			indexHtml : 'index.html',
 			bookmarkHtml : 'bookmark.html',
 			production : {
-				printliminator : '//css-tricks.github.io/The-Printliminator/printliminator.min.js'
+				printliminator : '//ILikePython256.github.io/The-Printliminator/printliminator.min.js'
 			},
 			dev : {
 				printliminator : 'dist/bookmarklet/printliminator.js'
