@@ -99,7 +99,7 @@ var pl = window.thePrintliminator = {
 		// @endif
 
 		// use event key below
-		opposite  : 'altKey',  // alt + click
+		opposite  : 'ctrlKey',  // ctrl + click
 		fullWidth : 'shiftKey' // shift + click
 	},
 
@@ -204,7 +204,7 @@ var pl = window.thePrintliminator = {
 				}
 			} else {
 				// show opposite
-				// Alt + click
+				// Ctrl + click
 				if ( event[ pl.keys.opposite ] ) {
 					done = pl.getOpposite( hilite );
 					sel = done.length;
@@ -232,7 +232,7 @@ var pl = window.thePrintliminator = {
 				thePrintliminatorVars.history.push( done );
 
 				if ( opposite ) {
-					// messages will get hidden if alt+click used
+					// messages will get hidden if ctrl+click used
 					// this is easier than trying to detect it
 					pl.removeClass( document.querySelector( 'ul.' + pl.css.messages ), pl.css.hidden );
 				}

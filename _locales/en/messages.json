@@ -15,9 +15,9 @@
 		"message" : "Just click stuff on page to remove",
 		"description" : "Click highlight to remove item"
 	},
-	"altClickRemove" : {
-		"message" : "Alt-click to remove opposite",
-		"description" : "Alt-click highlight to remove everything expect the item"
+	"ctrlClickRemove" : {
+		"message" : "Ctrl-click to remove opposite",
+		"description" : "Ctrl-click highlight to remove everything expect the item"
 	},
 	"undoLast" : {
 		"message" : "Undo<br>Last",
@@ -143,9 +143,9 @@
 		"message" : "left-click on mouse",
 		"description" : "left mouse click"
 	},
-	"keyAlt" : {
-		"message" : "Alt",
-		"description" : "Alt-key used with mouse-click"
+	"keyCtrl" : {
+		"message" : "Ctrl",
+		"description" : "Ctrl-key used with mouse-click"
 	},
 	"removeOpposite" : {
 		"message" : "Remove everything but highlighted box",
